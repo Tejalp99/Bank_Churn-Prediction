@@ -148,39 +148,41 @@ notchurn == 0
 5. RandomForest (RF)
 
 Result: 
-        
+1. Visualization of the feature importances:
+<img width="617" alt="Screenshot 2023-08-14 at 4 33 36 PM" src="https://github.com/Tejalp99/Bank_Churn-Prediction/assets/115590863/37a63584-44e4-4c12-ac55-e1f7953650a5">
+      
+2. Based on the mean value and the standard deviation value, we can conclude that our ROC-AUC score does not deviate much, so we are not suffering from the 
+   overfitting issue.
+ <img width="284" alt="Screenshot 2023-08-14 at 4 35 07 PM" src="https://github.com/Tejalp99/Bank_Churn-Prediction/assets/115590863/e9d1901e-a9a0-469b-a6d9-a8f456759f3e">
 
-        
-<img width="270" alt="Screenshot 2023-08-12 at 11 28 08 AM" src="https://github.com/Tejalp99/Bank_churn/assets/115590863/a1730dcd-5829-4b0a-8122-c9a8e6264b9b">
+ <img width="1010" alt="Screenshot 2023-08-14 at 4 35 24 PM" src="https://github.com/Tejalp99/Bank_Churn-Prediction/assets/115590863/f72a2ba6-153c-4bbc-8b25-af23dd8474b7">
 
-
-
-<img width="787" alt="Screenshot 2023-08-13 at 2 44 17 PM" src="https://github.com/Tejalp99/Bank_churn/assets/115590863/8ae2e527-5387-4a28-8dbe-eee72cb24ed8">
-
-
-Based on the mean value and the standard deviation value, we can conclude that our ROC-AUC score does not deviate much, so we are not suffering from the overfitting issue.
+  
 
 Predicting Churn probability
 
 'LOW' probability means low likelihood of churn
 
 1. Using Random Forest Model:   
-<img width="654" alt="Screenshot 2023-08-14 at 4 06 19 PM" src="https://github.com/Tejalp99/Bank_churn/assets/115590863/4bd62f9f-f581-4151-952c-56464c81f3e3">
+<img width="633" alt="Screenshot 2023-08-14 at 4 35 54 PM" src="https://github.com/Tejalp99/Bank_Churn-Prediction/assets/115590863/205f1a52-1fc4-4ae5-9516-abf8364d2c87">
 
 2. Using Logistic Regression Model:
-<img width="655" alt="Screenshot 2023-08-14 at 4 07 50 PM" src="https://github.com/Tejalp99/Bank_churn/assets/115590863/6164fe5f-e921-4dc5-a88c-b7b714608dae">
+<img width="637" alt="Screenshot 2023-08-14 at 4 36 13 PM" src="https://github.com/Tejalp99/Bank_Churn-Prediction/assets/115590863/dcc28c5d-5091-4779-aa95-f55d2599b7fc">
+
 
 3. Using K-Nearest Neighbor Model:
-<img width="616" alt="Screenshot 2023-08-14 at 4 08 49 PM" src="https://github.com/Tejalp99/Bank_churn/assets/115590863/26595fac-248a-4660-ae6b-1ca66af2d555">
+<img width="604" alt="Screenshot 2023-08-14 at 4 36 34 PM" src="https://github.com/Tejalp99/Bank_Churn-Prediction/assets/115590863/33a7e71b-129d-46df-9694-75aebd82fa76">
+
 
 4. Using Gradient Boosting Classifier:
-<img width="621" alt="Screenshot 2023-08-14 at 4 10 06 PM" src="https://github.com/Tejalp99/Bank_churn/assets/115590863/60f15b5a-2aeb-4f43-8533-5e34453ea1ee">
+<img width="584" alt="Screenshot 2023-08-14 at 4 36 58 PM" src="https://github.com/Tejalp99/Bank_Churn-Prediction/assets/115590863/1b7b886b-e192-410c-add8-2ba1a14a135f">
 
 6. Using Adaptive Boosting Model:
-<img width="593" alt="Screenshot 2023-08-14 at 4 11 55 PM" src="https://github.com/Tejalp99/Bank_churn/assets/115590863/c326569a-8271-42f4-a8e9-f8ce3d300f2e">
+<img width="582" alt="Screenshot 2023-08-14 at 4 37 17 PM" src="https://github.com/Tejalp99/Bank_Churn-Prediction/assets/115590863/8b9c9725-7640-4605-bc17-9636d2cdb5f3">
 
 7. Shap values (SHapley Additive exPlanations) is a game theoretic approach to explain the output of any machine learning model. In below plot we can see that why a particual customer's churning probability is less than baseline value and which features are causing them.
-<img width="1010" alt="Screenshot 2023-08-14 at 4 24 46 PM" src="https://github.com/Tejalp99/Bank_churn/assets/115590863/dd768580-ade2-4728-8bbe-f5f6ebdd3341">
+<img width="1007" alt="Screenshot 2023-08-14 at 4 37 49 PM" src="https://github.com/Tejalp99/Bank_Churn-Prediction/assets/115590863/f7d2965a-cb74-4a0f-ad2c-32a2b2084e28">
+
 
 
 
