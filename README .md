@@ -176,10 +176,10 @@ Predicting Churn probability
 4. Using Gradient Boosting Classifier:
 <img width="621" alt="Screenshot 2023-08-14 at 4 10 06 PM" src="https://github.com/Tejalp99/Bank_churn/assets/115590863/60f15b5a-2aeb-4f43-8533-5e34453ea1ee">
 
-5. Using Adaptive Boosting Model:
+6. Using Adaptive Boosting Model:
 <img width="593" alt="Screenshot 2023-08-14 at 4 11 55 PM" src="https://github.com/Tejalp99/Bank_churn/assets/115590863/c326569a-8271-42f4-a8e9-f8ce3d300f2e">
 
-6. Shap values (SHapley Additive exPlanations) is a game theoretic approach to explain the output of any machine learning model. In below plot we can see that why a particual customer's churning probability is less than baseline value and which features are causing them.
+7. Shap values (SHapley Additive exPlanations) is a game theoretic approach to explain the output of any machine learning model. In below plot we can see that why a particual customer's churning probability is less than baseline value and which features are causing them.
 <img width="1010" alt="Screenshot 2023-08-14 at 4 24 46 PM" src="https://github.com/Tejalp99/Bank_churn/assets/115590863/dd768580-ade2-4728-8bbe-f5f6ebdd3341">
 
 
